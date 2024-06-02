@@ -75,22 +75,44 @@ export default function Home() {
         {/* Medium Card 2 */}
         <div className="h-96 text-white text-center grid bg-cover bg-[url('./pexels-pixabay-57705.jpg')]">
           <div className="col-start-1 row-start-1 bg-gray-800 bg-opacity-70 w-full h-full"></div>
-          <div className="col-start-1 row-start-1 mx-auto my-auto">
+          <div className="col-start-1 row-start-1 m-auto px-3">
             <h1 className="font-bold text-2xl">Hero Message</h1>
             <p>Something interesting about hero message</p>
           </div>
         </div>
         {/* Medium Card 3 */}
-        <div className="flex max-w-lg bg-stone-100 text-slate-900 flex h-full">
+        <div className="flex max-w-lg bg-stone-100 text-slate-900 h-full">
           <div className="w-2/5 bg-[url('./pexels-pixabay-326055.jpg')] h-42 bg-cover bg-center"></div>
-          <div className="flex flex-col p-4 w-3/5">
+          <div className="flex flex-col p-5 w-3/5">
             <h2 className="mb-4 font-bold text-lg">Heading</h2>
             <p>
               Id venenatis a condimentum vitae sapien pellentesque habitant. Id
               venenatis a condimentum vitae sapien pellentesque habitant.
             </p>
-            <div className="mt-4 flex justify-end"></div>
+            <div className="mt-4 flex justify-end">
+              <button className="w-fit text-sm font-bold text-slate-900 rounded-lg">
+                <Link href="#">CTA Here &#x2192;</Link>
+              </button>
+            </div>
           </div>
+        </div>
+      </div>
+      <div className="w-full flex flex-col flex-wrap gap-4">
+        <div className="flex flex-col max-w-sm bg-stone-100 text-slate-900 py-5 gap-5">
+          <div className="flex gap-5">
+            <h2 className="text-3xl font-black p-4">$17/mo</h2>
+            <h3 className="text-2xl bg-slate-900 text-slate-100 text-center rounded-s-full p-5 w-72">
+              BASIC
+            </h3>
+          </div>
+          <div className="p-4">
+          <h4>Enjoy these features:</h4>
+          <ul>
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+          </ul>
+        </div>
         </div>
       </div>
     </main>
