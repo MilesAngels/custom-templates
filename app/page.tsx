@@ -75,7 +75,7 @@ export default function Home() {
         {/* Medium Card 2 */}
         <div className="h-96 text-white text-center grid bg-cover bg-[url('./pexels-pixabay-57705.jpg')]">
           <div className="col-start-1 row-start-1 bg-gray-800 bg-opacity-70 w-full h-full"></div>
-          <div className="col-start-1 row-start-1 m-auto px-3">
+          <div className="col-start-1 row-start-1 m-auto mx-6">
             <h1 className="font-bold text-2xl">Hero Message</h1>
             <p>Something interesting about hero message</p>
           </div>
@@ -98,21 +98,21 @@ export default function Home() {
         </div>
       </div>
       <div className="w-full flex flex-col flex-wrap gap-4">
-        <div className="flex flex-col max-w-sm bg-stone-100 text-slate-900 py-5 gap-5">
+        <div className="flex max-w-64 flex-col max-w-sm bg-stone-100 text-slate-900 py-8 gap-5">
           <div className="flex gap-5">
-            <h2 className="text-3xl font-black p-4">$17/mo</h2>
-            <h3 className="text-2xl bg-slate-900 text-slate-100 text-center rounded-s-full p-5 w-72">
+            <h2 className="text-3xl font-black p-2 ml-8">$17/mo</h2>
+            <h3 className="text-2xl bg-slate-900 text-slate-100 text-center rounded-s-full p-2 w-full">
               BASIC
             </h3>
           </div>
-          <div className="p-4">
-          <h4>Enjoy these features:</h4>
-          <ul>
-            <li>Feature 1</li>
-            <li>Feature 2</li>
-            <li>Feature 3</li>
-          </ul>
-        </div>
+          <div className="mx-8 my-4">
+            <h4 className="text-lg font-semibold">Enjoy these features:</h4>
+            <ul className="leading-9">
+              <li>Feature 1</li>
+              <li>Feature 2</li>
+              <li>Feature 3</li>
+            </ul>
+          </div>
         </div>
       </div>
     </main>
