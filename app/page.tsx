@@ -23,7 +23,7 @@ export default function Home() {
           </div>
         </div>
         {/* {Small Card 2} */}
-        <div className="max-w-64 text-white text-center grid bg-cover bg-[url('./pexels-pixabay-57705.jpg')]">
+        <div className="max-w-64 h-96 text-white text-center grid bg-cover bg-[url('./pexels-pixabay-57705.jpg')] content-end">
           <div className="p-4 col-start-1 row-start-3 bg-gray-800 bg-opacity-70 w-full h-full">
             <h2 className="mb-4 font-bold text-lg">Heading</h2>
             <p>
@@ -37,16 +37,16 @@ export default function Home() {
           </div>
         </div>
         {/* Small Card 3 */}
-        <div className="max-w-64 md:w-full bg-stone-100">
-          <div className="flex flex-col p-6 text-slate-900">
-            <div className="self-center bg-[url('./pexels-pixabay-57705.jpg')] h-24 w-24 bg-cover bg-center rounded-full mb-5"></div>
-            <h2 className="mb-4 font-bold text-lg">Heading</h2>
+        <div className="max-w-64 h-96 md:w-full bg-stone-100">
+          <div className="flex flex-col px-6 py-9 text-slate-900 gap-8">
+            <div className="self-center bg-[url('./pexels-pixabay-57705.jpg')] h-24 w-24 bg-cover bg-center rounded-full"></div>
+            <h2 className="font-bold text-lg">Heading</h2>
             <p>
               Id venenatis a condimentum vitae sapien pellentesque habitant.
             </p>
-            <div className="mt-4 flex absolule justify-end">
-              <button className="w-fit p-2 text-sm bg-slate-950 text-slate-200 rounded-lg">
-                CTA Here
+            <div className="flex justify-end">
+              <button className="w-fit text-sm font-bold text-slate-900 rounded-lg">
+                <Link href="#">CTA Here &#x2192;</Link>
               </button>
             </div>
           </div>
@@ -78,6 +78,18 @@ export default function Home() {
           <div className="col-start-1 row-start-1 mx-auto my-auto">
             <h1 className="font-bold text-2xl">Hero Message</h1>
             <p>Something interesting about hero message</p>
+          </div>
+        </div>
+        {/* Medium Card 3 */}
+        <div className="flex max-w-lg bg-stone-100 text-slate-900 flex h-full">
+          <div className="w-2/5 bg-[url('./pexels-pixabay-326055.jpg')] h-42 bg-cover bg-center"></div>
+          <div className="flex flex-col p-4 w-3/5">
+            <h2 className="mb-4 font-bold text-lg">Heading</h2>
+            <p>
+              Id venenatis a condimentum vitae sapien pellentesque habitant. Id
+              venenatis a condimentum vitae sapien pellentesque habitant.
+            </p>
+            <div className="mt-4 flex justify-end"></div>
           </div>
         </div>
       </div>
