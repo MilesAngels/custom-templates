@@ -16,7 +16,7 @@ export default function Home() {
               Id venenatis a condimentum vitae sapien pellentesque habitant.
             </p>
             <div className="mt-4 flex justify-end">
-              <button className="w-fit p-2 text-sm bg-slate-950 text-slate-200 rounded-lg">
+              <button className="w-fit p-2 text-sm bg-slate-950 text-slate-200 rounded-lg hover:bg-sky-700">
                 CTA Here
               </button>
             </div>
@@ -30,7 +30,7 @@ export default function Home() {
               Id venenatis a condimentum vitae sapien pellentesque habitant.
             </p>
             <div className="mt-4 flex justify-end">
-              <button className="w-fit p-2 text-sm bg-slate-950 text-slate-200 rounded-lg">
+              <button className="w-fit p-2 text-sm bg-slate-950 text-slate-200 rounded-lg hover:bg-sky-700">
                 CTA Here
               </button>
             </div>
@@ -45,7 +45,7 @@ export default function Home() {
               Id venenatis a condimentum vitae sapien pellentesque habitant.
             </p>
             <div className="flex justify-end">
-              <button className="w-fit text-sm font-bold text-slate-900 rounded-lg">
+              <button className="w-fit text-sm font-bold text-slate-900 rounded-lg hover:text-violet-800">
                 <Link href="#">CTA Here &#x2192;</Link>
               </button>
             </div>
@@ -107,11 +107,37 @@ export default function Home() {
           </div>
           <div className="mx-8 my-4">
             <h4 className="text-lg font-semibold">Enjoy these features:</h4>
-            <ul className="leading-9">
-              <li>Feature 1</li>
-              <li>Feature 2</li>
-              <li>Feature 3</li>
+            <ul className="my-4 leading-7">
+              <li>&#x2714; Feature 1</li>
+              <li>&#x2714; Feature 2</li>
+              <li>&#x2714; Feature 3</li>
             </ul>
+            <button className="w-full py-1 px-5 text-sm bg-slate-900 py-3 text-slate-200 rounded-full">
+              <Link href="#">CTA Here</Link>
+            </button>
+          </div>
+        </div>
+        <div className="flex max-w-64 flex-col max-w-sm bg-stone-100 text-slate-900 py-8 gap-5">
+          <div className="flex flex-col pl-5">
+            <h2 className="text-2xl bg-slate-900 text-slate-100 text-center rounded-s-full p-2 w-full">
+              BASIC
+            </h2>
+            <div className="text-center py-4 pr-2">
+              <p>Best for lightweight use</p>
+              <h2 className="text-3xl font-black p-2 ml-8">$17/mo</h2>
+              <p>or $204 annually</p>
+            </div>
+          </div>
+          <div className="mx-8 my-4">
+            <h4 className="text-lg font-semibold">Enjoy these features:</h4>
+            <ul className="my-4 leading-7">
+              <li>&#x2714; Feature 1</li>
+              <li>&#x2714; Feature 2</li>
+              <li>&#x2714; Feature 3</li>
+            </ul>
+            <button className="w-full text-sm bg-slate-900 py-3 text-slate-200 rounded-full">
+              <Link href="#">CTA Here</Link>
+            </button>
           </div>
         </div>
       </div>
